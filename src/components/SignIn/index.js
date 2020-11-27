@@ -74,7 +74,7 @@ class SignInFormBase extends Component {
           type="password"
           placeholder="Hasło"
         />
-        <Button BackgroundColor="#1fe61f" disabled={isInvalid} type="submit">Zaloguj się</Button>
+        <Button primary disabled={isInvalid} type="submit">Zaloguj się</Button>
         {error && <p>{error.message}</p>}
       </form>
     );

@@ -106,7 +106,7 @@ class SignUpFormBase extends Component {
           type="password"
           placeholder="Confirm Password"
         />
-        <Button BackgroundColor="#1fe61f" disabled={isInvalid} type="submit">
+        <Button primary disabled={isInvalid} type="submit">
           Sign Up
         </Button>
 

@@ -58,7 +58,7 @@ class PasswordChangeForm extends Component {
           type="password"
           placeholder="Potwierdź nowe hasło"
         />
-        <Button BackgroundColor="#1fe61f" disabled={isInvalid} type="submit">
+        <Button primary disabled={isInvalid} type="submit">
           Reset My Password
         </Button>
 

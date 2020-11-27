@@ -59,7 +59,7 @@ class PasswordForgetFormBase extends Component {
           type="text"
           placeholder="Email Address"
         />
-        <Button BackgroundColor="#1fe61f" disabled={isInvalid} type="submit">
+        <Button primary disabled={isInvalid} type="submit">
           Zresetuj Hasło
         </Button>
 
